@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color:rgb(216, 216, 216) ;
+}
+
+/*Layout*/
+.container{
+    margin: 0 auto;
+    width: 550px;
+}
+
+header{
+    height: 32vh;
+    background-color:#727272 ;
+    background-blend-mode:multiply ;
+    background-image: url("images/wallpape.jpg");
+    background-size: cover;
+    background-position: 0 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+nav, .search-bar{
+    width: 85%;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.search-bar{
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #D1D5DB;
+    position: absolute;
+    top: 100%;
+    transform: translateY(-50%);
+}
+
+.search-bar label{
+    width: 20px;
+    padding: .5em;
+    align-self: center;
+}
+
+label img{
+    width: 100%;
+}
+
+input:focus{
+    outline: none;
+}
+
+main{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.empty{
+    height: 68vh;
+    justify-content: center;
+}
+
+
+
+.movie, 
+.movie-description, 
+.title-rating,
+.specs{
+    display: flex;
+}
+
+.movie{
+    width: 90%;
+    height: 150px;
+    align-items: center;
+    padding: 2em 0 1.5em 0;
+    border-bottom: 1px solid #c9c9c9;
+
+}
+
+.movie-description{
+    padding-left: .5em;
+    flex-direction: column;
+}
+
+.title-rating, .specs{
+    align-items: center;
+}
+
+
+.movie-trama{
+    height: 60px;
+    line-height: 1.3;
+    overflow:hidden;
+}
+
+
+/*Typo*/
+
+.title{
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 0;
+    color: #fff;
+}
+
+.page-link{
+    font-size: .875rem;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: poiner;
+    color: #fff;
+}
+
+input[type="text"]{
+    padding: .7em 0;
+    border: none;
+    width: 80%;
+    font-family: "Inter", sans-serif;
+}
+
+input[type="text"]::placeholder{
+    color: #6b7280;
+}
+
+
+#search-btn{
+    font-size: .875rem;
+    border: none;
+    background-color:#D1D5DB;
+    padding: 0 2.5em;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+.movie-cover{
+    display: block;
+    height: 150px;
+    border-radius: 3px;
+}
+
+.movie-title{
+    font-size:1.125rem;
+    font-weight: 500;
+    margin: 0 .5em 0 0;
+}
+
+.movie-rating{
+    font-size: .675rem;
+}
+
+.specs p{
+    font-size: .75rem;
+    margin: 0 1.5em 0 0;
+}
+
+.specs .add-watchlist{
+    margin: 0 0 0 3em;
+}
+
+.movie-trama{
+    color: #6b7280;
+    font-size: .75rem;
+}
+
+.empty-section{
+    height: 100%;
+    position: absolute;
+    ;
+}
