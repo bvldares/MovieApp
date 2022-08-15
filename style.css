@@ -135,6 +135,9 @@ input[type="text"]::placeholder{
     color: #6b7280;
 }
 
+input.add-watchlist{
+    margin: 0;
+}
 
 #search-btn{
     font-size: .875rem;

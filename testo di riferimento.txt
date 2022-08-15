@@ -1,20 +1,20 @@
-     <div class="movie">
-                <img src="images/film.jpg" alt="film cover" class="movie-cover">
-                <div class="movie-description">
-                    <div class="title-rating">
-                        <h3 class="movie-title">Blade Runner</h3>
-                        <p class="movie-rating">⭐ 8.1</p>
-                    </div>
-                    <div class="specs">
-                        <p class="duration">117 min</p>
-                        <p class="categories">Action, Drama, Sci-fi</p>
-                        <p class="add-watchlist"> Watchlist</p>
-                    </div>
-                    <p class="movie-trama">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, aspernatur. 
-                        Sapiente odio maiores excepturi, fugit illo accusantium vel magnam enim inventore 
-                        eaque ducimus quaerat assumenda nihil similique velit consequatur accusamus! Nesciunt nemo iure 
-                        modi distinctio sed, sit reprehenderit saepe a quaerat sequi eligendi 
-                        vero neque optio quas placeat, numquam, doloribus cum nam.</p>
-                </div>    
+<div class="movie">
+        <img src="images/film.jpg" alt="film cover" class="movie-cover">
+        <div class="movie-description">
+            <div class="title-rating">
+                <h3 class="movie-title">Blade Runner</h3>
+                <p class="movie-rating">⭐ 8.1</p>
             </div>
+            <div class="specs">
+                <p class="duration">117 min</p>
+                <p class="categories">Action, Drama, Sci-fi</p>
+                <p class="add-watchlist"> Watchlist</p>
+            </div>
+            <p class="movie-trama">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, aspernatur. 
+                Sapiente odio maiores excepturi, fugit illo accusantium vel magnam enim inventore 
+                eaque ducimus quaerat assumenda nihil similique velit consequatur accusamus! Nesciunt nemo iure 
+                modi distinctio sed, sit reprehenderit saepe a quaerat sequi eligendi 
+                vero neque optio quas placeat, numquam, doloribus cum nam.</p>
+        </div>    
+    </div>
