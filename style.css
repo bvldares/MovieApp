@@ -183,3 +183,14 @@ input.add-watchlist{
     position: absolute;
     ;
 }
+
+
+@media (max-width:850px){
+    .container{
+        width: 100%;
+    }
+
+    .message{
+        text-align: center;
+    }
+}
